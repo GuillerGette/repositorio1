@@ -2,6 +2,7 @@
 <html lang= "en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="shortcut icon" sizes="10x5" href="/IMG/color rojo.jpg">
         <link rel="stylesheet" href="/CSS/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
@@ -11,23 +12,38 @@
 
         <!--MENU PRINCIPAL-->
 
-        <table> 
-            <tr>
-            <ul>
-           
-                <th><li><a href="/index.html">HOME</a></th>
-        
-                <th><li><a href="/PAGES/registro.html">REGISTRO</a></li></th>
-        
-                <th><li><a>INICIO</a></li></th>
-
-                <th><li><a href="/PAGES/galeria.html">GALERÍA</a></li></th>
-        
-                <th><li><a href="/PAGES/sobremi.html">SOBRE MÍ</a></li></th>
-        
-            </ul>
-        </tr>
-    </table>   
+        <div class="container">
+            <table>
+                <tr>
+    
+        <ul class="nav">
+    
+            <th><li class="nav-item">
+                <a class="nav-link" href="../index.html">HOME</a>
+            </li></th>
+    
+            <th><li class="nav-item">
+                <a class="nav-link" href="/PAGES/registro.html">REGISTRO</a>
+            </li></th>
+    
+    
+            <th><li class="nav-item">
+                <a class="nav-link" href="#">INICIO</a>
+            </li></th>
+    
+    
+            <th><li class="nav-item">
+                <a class="nav-link" href="/PAGES/galeria.html">GALERÍA</a>
+            </li></th>
+    
+            <th><li class="nav-item">
+                <a class="nav-link" href="/PAGES/sobremi.html">SOBRE MI</a>
+            </li></th>
+    
+        </ul>
+     </tr>
+    </table>
+        </div>   
 
         <!--FORMULARIO DE INCIO DE SESION-->
 
@@ -36,22 +52,25 @@
             <p>¿Ya tenés cuenta? ¡Ingresá acá!</p>
         </section>
 
-        <br>
-        <br>
-        
-        <form>
+        <div class="container">
 
-            <label for="fuser">*Username</label>
-            <input id="fuser" required type="text" required>
-            
-            <label for="fcontraseña">*Contraseña</label>
-            <input id="fcontraseña" required type="password" required>
-            
+        <h2>¡Hola de nuevo!</h2>
+
+        <form action="#">
+            <div class="form-group">
+
+            <label for="user">Username</label>
+            <input type="user" class="form-control" id="user" placeholder="Nombre de Usuario" name="user" required>
+            <label for="fcontraseña">Contraseña</label>
+            <input type="contraseña" class="form-control" id="contraseña" placeholder="Contraseña" name="contraseña" required>
+
+            </div>
 
             <p>Recuerdame<input type="checkbox"></p> 
-            <button type="submit">LOGIN</button>
+            <button type="submit" class="btn btn-default">LOGIN</button>
 
         </form>
+        </div>
         
 
          <!--PIE DE PAGINA-->

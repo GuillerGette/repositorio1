@@ -114,9 +114,11 @@ ul {
 
 li {
     display: inline-block;
-    width: 25%;
-    position: relative;
+    width: 20%;
+    position:relative;
     font-size: 14px;
+    align-items: center;
+    justify-content: center;
 }
 
 ul ul {
@@ -180,28 +182,28 @@ color: white;
 @import url(https://fonts.googleapis.com);
 
 .headerindex {
-width: 100%;
-height: 60%;
-padding: 60px 0;
-text-align: center;
-background-image: url(/IMG/dynax.jpg);
-color: white;
-}
-
-@import url(https://fonts.googleapis.com);
-
-
-h1 {
-font-size: 2.8em;
-padding: 10px 0;
-font-weight: 800;
-}
-
-p {
-font-size: 1.1em;
-font-weight: 100;
-letter-spacing: 5px;
-}
+  width: 100%;
+  padding:60px 0;
+  text-align: center;
+  background: cadetblue;
+  color: white;
+  font-family: "lora", sans-serif;
+  }
+  
+  
+  @import url(https://fonts.googleapis.com);
+  
+  h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+  }
+  
+  p {
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 5px;
+  }
 
 .headergaleria {
 width: 100%;

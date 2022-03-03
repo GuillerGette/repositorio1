@@ -2,6 +2,7 @@
 <html lang= "en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="shortcut icon" sizes="10x5" href="/IMG/color rojo.jpg rojo.jpg">
         <link rel="stylesheet" href="/CSS/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
@@ -12,23 +13,38 @@
 
     <body>
 
-        <table> 
-            <tr>
-            <ul>
-           
-                <th><li><a href="/index.html">HOME</a></th>
-        
-                <th><li><a>REGISTRO</a></li></th>
-        
-                <th><li><a href="/PAGES/iniciosesion.html">INICIO</a></li></th>
-        
-                <th><li><a href="/PAGES/galeria.html">GALERÍA</a></li></th>
-        
-                <th><li><a href="/PAGES/sobremi.html">SOBRE MÍ</a></li></th>
-        
-            </ul>
-            </tr>
-        </table>   
+        <div class="container">
+            <table>
+                <tr>
+    
+        <ul class="nav">
+    
+            <th><li class="nav-item">
+                <a class="nav-link" href="../index.html">HOME</a>
+            </li></th>
+    
+            <th><li class="nav-item">
+                <a class="nav-link" href="#">REGISTRO</a>
+            </li></th>
+    
+    
+            <th><li class="nav-item">
+                <a class="nav-link" href="/PAGES/iniciosesion.html">INICIO</a>
+            </li></th>
+    
+    
+            <th><li class="nav-item">
+                <a class="nav-link" href="/PAGES/galeria.html">GALERÍA</a>
+            </li></th>
+    
+            <th><li class="nav-item">
+                <a class="nav-link" href="/PAGES/sobremi.html">SOBRE MI</a>
+            </li></th>
+    
+        </ul>
+     </tr>
+    </table>
+        </div>   
    
         <!--FORMULARIO DE REGISTRO-->
 
@@ -37,40 +53,40 @@
             <p>Y vení a ser parte de esta comunidad</p>
         </section>
 
-        <form>
+        <form action="#">
             <table class="table1" >
                 <tr>
-            <th><label for="fnombre">*Nombre</label></th>
-            <td><input id="fnombre" required type="text" required></td>
+            <th><label for="nombre">Nombre</label></th>
+            <td><input type="nombre" class="form-control" id="nombre" placeholder="Tu Nombre" name="nombre" required></td>
         </tr>
         
         <tr>
-            <th><label for="fapellido">*Apellido</label></th>
-            <td><input id="fapellido" required type="text" required></td>
+            <th><label for="apellido">Apellido</label></th>
+            <td><input type="apellido" class="form-control" id="nombre" placeholder="Tu Apellido" name="apellido" required></td>
         </tr>
         
         <tr>
-            <th><label for="fuser">*Username</label></th>
-            <td><input id="fuser" required type="text" required></td>
+            <th><label for="user">Username</label></th>
+            <td><input type="user" class="form-control" id="user" placeholder="¿Cómo te llamamos?" name="user" required></td>
             
         </tr>
 
         <tr>
             
-            <th><label for="fmail">*Email</label></th>
-            <td><input id="fmail" required type="text" required></td>
+            <th><label for="mail">Email</label></th>
+            <td><input type="mail" class="form-control" id="mail" placeholder="Tu Mail" name="mail" required></td>
 
-            <th><label for="frepeatmail">*Repetir mail</label></th>
-            <td><input id="frepeatmail" required type="text" required></td>
+            <th><label for="repeatmail">Repetir mail</label></th>
+            <td><input type="repeatmail" class="form-control" id="repeatmail" placeholder="Repetí tu mail" name="repeatmail" required></td>
             
         </tr>
 
         <tr>
 
-            <th><label for="fcontraseña">*Contraseña</label></th>
-            <td><input id="fcontraseña" required type="password" required></td>
-            <th><label for="frepeatcontraseña">*Repetir contraseña</label></th>
-            <td><input id="frepeatcontraseña" required type="text" required></td>
+            <th><label for="contraseña">Contraseña</label></th>
+            <td><input type="contraseña" class="form-control" id="contraseña" placeholder="Creá tu contraseña" name="contraseña" required></td>
+            <th><label for="repeatcontraseña">Repetir contraseña</label></th>
+            <td><input type="arepeatcontraseña" class="form-control" id="repeatcontraseña" placeholder="Repetí tu contraseña" name="apellido" required></td>
             
         </tr>
 
@@ -88,9 +104,8 @@
     </table>
  
          <form>
-            <input type="submit">
-            <button type="reset">Reset</button>
-
+            <button type="submit" class="btn btn-default">SUBMIT</button>
+            <button type="reset" class="btn btn-default">RESET</button>
          </form>
 
 

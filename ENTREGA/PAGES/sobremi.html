@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="shortcut icon" sizes="10x5" href="/IMG/color rojo.jpg rojo.jpg">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="/CSS/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
         <title>Sobre mi</title>
@@ -10,24 +11,38 @@
 
     <!--MENU PRINCIPAL-->
 
-    <body>
-        <table> 
+    <div class="container">
+        <table class="table">
             <tr>
-            <ul>
-           
-                <th><li><a href="/index.html">HOME</a></th>
-        
-                <th><li><a href="/PAGES/registro.html">REGISTRO</a></li></th>
-        
-                <th><li><a href="/PAGES/iniciosesion.html">INICIO</a></li></th>
-        
-                <th><li><a href="/PAGES/galeria.html">GALERÍA</a></li></th>
-        
-                <th><li><a>SOBRE MÍ</a></li></th>
-        
-            </ul>
-        </tr>
-    </table>   
+
+    <ul class="nav">
+
+        <th><li class="nav-item">
+            <a class="nav-link" href="../index.html">HOME</a>
+        </li></th>
+
+        <th><li class="nav-item">
+            <a class="nav-link" href="/PAGES/registro.html">REGISTRO</a>
+        </li></th>
+
+
+        <th><li class="nav-item">
+            <a class="nav-link" href="/PAGES/iniciosesion.html">INICIO</a>
+        </li></th>
+
+
+        <th><li class="nav-item">
+            <a class="nav-link" href="/PAGES/galeria.html">GALERÍA</a>
+        </li></th>
+
+        <th><li class="nav-item">
+            <a class="nav-link" href="#">SOBRE MI</a>
+        </li></th>
+
+    </ul>
+ </tr>
+</table>
+    </div>   
 
     
     <section class="headersobremi">
@@ -38,7 +53,7 @@
 
         <h3 class="titulo">Sobre Guille Captura🖤</h3>
         <br>
-        <img src="/IMG/yo.jpg" width="500" height="500">
+        <img src="/IMG/yo.jpg" class="img-thumbnail" width="500" height="500">
 
         <p class="titulo">Mi pasión por la fotografia comenzó cuando era chica y siempre se matuvo firme.
             En su momento me apasionaba la fotografía digital hasta que conoci el arte de lo analógico
