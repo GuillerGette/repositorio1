@@ -1,0 +1,58 @@
+body {
+    background-color: whitesmoke;
+    background-position: none;
+    font-family: 'Alegreya', serif;
+}
+
+h1 {
+    align-self: right;
+    justify-content: center;
+    color: #5f260a;
+    font-family: 'Alegreya', serif;
+    font-size:xx-large;
+    font-style:italic;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 0%;
+}
+
+h4 {
+    justify-content: center;
+    text-align: center;
+    color: #5f260a;
+    font-family: 'Alegreya', serif;
+    font-size: x-large;
+    font-style: italic;
+    text-size-adjust: block;
+    padding-top: 1%;
+}
+
+p {
+    justify-content: right;
+    color: #5f260a;
+    font-family: 'Alegreya', serif;
+    font-size: x-large;
+    font-style: italic;
+    text-size-adjust: block;
+    text-align: center; 
+}
+
+.plinea {
+    padding-top: 7%;
+}
+
+
+img {
+    float: left;
+    width: auto;
+    align-items: center;
+    padding: 7%;
+}
+
+footer {
+    color:#5f260a;
+    position: relative;
+    margin-top: 20%;
+    text-align: center;
+    justify-content: center;
+ }
