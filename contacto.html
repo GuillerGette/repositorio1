@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang= "es">
+
+        <head runat="server">
+        <title>Entrecasa Infusiones</title>
+        <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+        </asp:ContentPlaceHolder>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="keywords" content="bebidas, instagram, tendencia"/>
+        <meta name="author" content="Entrecasa Infusiones"/>
+        <meta name="copyright" content="Entrecasa Infusiones"/>
+        <meta name="robots" content="index,follow"/>
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <link rel="shortcut icon" sizes="10x5" href="./IMG/Aesthetic Tea.jpg">
+        <link rel="stylesheet" href="/CSS/style.css">
+        <script src="/JS/miarchivo.js"></script>
+    </head>
+
+    <body>
+        
+
+        <h1>Entrecasa Infusiones</h1>
+
+        <nav class="menuCSS3">
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/PAGES/tienda.html">Tienda</a>
+                    <ul>
+                        <li><a href="#">Herbales</a></li>
+                        <li><a href="#">Hebras Tradicionales</a></li>
+                        <li><a href="#">Blends de Autor</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                    </ul>
+                </li>
+                <li><a href="/PAGES/faq.html">FAQ</a></li>
+                <li><a href="#">Contacto</a>
+                    <ul>
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">Whatsapp</a></li>
+                    </ul>
+    
+                </li>
+            </ul>
+        </nav>
+
+
+<textarea id = "txtAreaMsj "></textarea>  
+<button id = "botonEnviar" type="submit">Enviar</button>  
+
+<form onsubmit="return sendData()">
+    <input type="text" id="name" value="nombre" required/>
+    <input type="email" id="email" value="email" required/>
+    <input type="submit" value="Go!"/>
+  </form>
+
+
+          
